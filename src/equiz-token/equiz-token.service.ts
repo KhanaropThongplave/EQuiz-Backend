@@ -18,7 +18,7 @@ export class EquizTokenService {
     @InjectRepository(EQuizToken)
     private EQuizTokenRepository: Repository<EQuizToken>,
   ) {
-    // this.startEQuizService();
+    //this.startEQuizService();
   }
 
   async startEQuizService() {

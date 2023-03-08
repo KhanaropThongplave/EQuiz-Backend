@@ -3,7 +3,7 @@ import { Request } from 'express';
 
 import { EquizTokenService } from './equiz-token.service';
 
-@Controller('/api/egame-token')
+@Controller('/api/equiz-token')
 export class EquizTokenController {
   constructor(private equizTokenService: EquizTokenService) {}
 

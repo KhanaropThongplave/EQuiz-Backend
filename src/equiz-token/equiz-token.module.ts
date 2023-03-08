@@ -12,4 +12,4 @@ import { EquizTokenService } from './equiz-token.service';
   controllers: [EquizTokenController],
   exports: [],
 })
-export class EgameTokenModule {}
+export class EquizTokenModule {}

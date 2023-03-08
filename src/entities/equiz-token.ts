@@ -15,8 +15,6 @@ export class EQuizToken {
   @Column({ nullable: true })
   transferToken_event: string;
   @Column({ nullable: true })
-  playerScore_event: string;
-  @Column({ nullable: true })
   contract_address: string;
   @Column({ nullable: true })
   from_address: string;
